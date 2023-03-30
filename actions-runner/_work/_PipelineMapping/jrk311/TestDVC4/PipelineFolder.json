@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "jrk311/TestDVC4",
+  "pipelineDirectory": "TestDVC4",
+  "workspaceDirectory": "TestDVC4\\TestDVC4",
+  "repositories": {
+    "jrk311/TestDVC4": {
+      "repositoryPath": "TestDVC4\\TestDVC4",
+      "lastRunOn": "03/30/2023 10:32:25 -03:00"
+    }
+  },
+  "lastRunOn": "03/30/2023 10:33:03 -03:00"
+}

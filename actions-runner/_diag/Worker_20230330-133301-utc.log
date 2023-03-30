@@ -1,0 +1,1768 @@
+[2023-03-30 13:33:01Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-03-30 13:33:01Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:01Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:01Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\.credentials'
+[2023-03-30 13:33:01Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:01Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:01Z INFO HostContext] Well known config file 'Runner': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\.runner'
+[2023-03-30 13:33:02Z INFO Worker] Version: 2.303.0
+[2023-03-30 13:33:02Z INFO Worker] Commit: e676c7871817c1b484299cd93fabdf4b95e70741
+[2023-03-30 13:33:02Z INFO Worker] Culture: es-MX
+[2023-03-30 13:33:02Z INFO Worker] UI Culture: es-MX
+[2023-03-30 13:33:02Z INFO Worker] Waiting to receive the job message from the channel.
+[2023-03-30 13:33:02Z INFO ProcessChannel] Receiving message of length 19692, with hash '838054088e2cf967ee982817d655173726fb581bd74b47ad4aadfd6cb8b310ec'
+[2023-03-30 13:33:02Z INFO Worker] Message received.
+[2023-03-30 13:33:02Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/create_file.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 9,
+        "col": 13,
+        "lit": "Create file"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 10,
+              "col": 12,
+              "lit": "cd \"C:\\Users\\jorge\\Desktop\\Jorge U\\MindLabs\\DVC\\TestDVC4\"\necho \"Hola Mundo\" > my_file_test.txt\ncat my_file_test.txt\n"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "11ab1553-ddaf-5bbe-3bed-6cee8845c584",
+      "name": "__run"
+    }
+  ],
+  "variables": {
+    "system.isScheduled": {
+      "value": "False"
+    },
+    "system.servertype": {
+      "value": "Hosted"
+    },
+    "system.culture": {
+      "value": ""
+    },
+    "system.pipelineStartTime": {
+      "value": "2023-03-30 13:32:57+00:00"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode12Action": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "DistributedTask.DeprecateStepOutputCommands": {
+      "value": "true"
+    },
+    "system.teamProjectId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "build.buildId": {
+      "value": "2"
+    },
+    "build.containerId": {
+      "value": "998978"
+    },
+    "system.workflowFilePath": {
+      "value": ".github/workflows/create_file.yml"
+    },
+    "system.phaseDisplayName": {
+      "value": "create-file"
+    },
+    "system.phaseId": {
+      "value": "2563ba97-fa70-5796-53c1-12b9cecf9c3c"
+    },
+    "system.phaseName": {
+      "value": "create-file"
+    },
+    "system.phaseAttempt": {
+      "value": "1"
+    },
+    "system.jobIdentifier": {
+      "value": "create-file.__default"
+    },
+    "system.jobAttempt": {
+      "value": "1"
+    },
+    "System.JobPositionInPhase": {
+      "value": "1"
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1"
+    },
+    "system.github.job": {
+      "value": "create-file"
+    },
+    "system.jobDisplayName": {
+      "value": "create-file"
+    },
+    "system.jobId": {
+      "value": "9164a0f0-3bcd-5ee3-eaa2-1108f277a7dd"
+    },
+    "system.jobName": {
+      "value": "__default"
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Contents\":\"read\",\"Metadata\":\"read\",\"Packages\":\"read\"}"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "Actions",
+    "version": 31,
+    "planId": "7f4e3bc2-7afa-4e27-a79c-6949ebc3841e",
+    "planGroup": "Actions:00000000-0000-0000-0000-000000000000:1",
+    "artifactUri": "vstfs:///Build/Build/2",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {},
+      "id": 3,
+      "name": "TestDVC4"
+    },
+    "owner": {
+      "_links": {},
+      "id": 3,
+      "name": "jrk311"
+    }
+  },
+  "timeline": {
+    "id": "7f4e3bc2-7afa-4e27-a79c-6949ebc3841e",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "9164a0f0-3bcd-5ee3-eaa2-1108f277a7dd",
+  "jobDisplayName": "create-file",
+  "jobName": "__default",
+  "requestId": 2,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "6f47627e-ed18-4f8a-819a-870a9822b18d",
+          "ServerName": "ckkLo4xrLMJkAEvmsmVNqJTy3Nk4gejc1dRSQZl1rlyhPW1Xrp",
+          "CacheServerUrl": "https://artifactcache.actions.githubusercontent.com/ckkLo4xrLMJkAEvmsmVNqJTy3Nk4gejc1dRSQZl1rlyhPW1Xrp/",
+          "FeedStreamUrl": "https://pipelines.actions.githubusercontent.com/ckkLo4xrLMJkAEvmsmVNqJTy3Nk4gejc1dRSQZl1rlyhPW1Xrp/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/7f4e3bc2-7afa-4e27-a79c-6949ebc3841e/timelines/7f4e3bc2-7afa-4e27-a79c-6949ebc3841e/records/9164a0f0-3bcd-5ee3-eaa2-1108f277a7dd/feedstream?api-version=6.0-preview"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://pipelines.actions.githubusercontent.com/ckkLo4xrLMJkAEvmsmVNqJTy3Nk4gejc1dRSQZl1rlyhPW1Xrp/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/main"
+        },
+        {
+          "k": "sha",
+          "v": "3849e495d4003a310af4d46c03329558f371fca9"
+        },
+        {
+          "k": "repository",
+          "v": "jrk311/TestDVC4"
+        },
+        {
+          "k": "repository_owner",
+          "v": "jrk311"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "81492252"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/jrk311/TestDVC4.git"
+        },
+        {
+          "k": "run_id",
+          "v": "4564998311"
+        },
+        {
+          "k": "run_number",
+          "v": "2"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "1"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "public"
+        },
+        {
+          "k": "repository_id",
+          "v": "621342258"
+        },
+        {
+          "k": "actor_id",
+          "v": "81492252"
+        },
+        {
+          "k": "actor",
+          "v": "jrk311"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "jrk311"
+        },
+        {
+          "k": "workflow",
+          "v": "Create-File"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "3849e495d4003a310af4d46c03329558f371fca9"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "40b637b463f6e7f8b86aa698e7da1723b7f6d242"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "81492252+jrk311@users.noreply.github.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Jorge Recabal"
+                              },
+                              {
+                                "k": "username",
+                                "v": "jrk311"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "noreply@github.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "GitHub"
+                              },
+                              {
+                                "k": "username",
+                                "v": "web-flow"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "3849e495d4003a310af4d46c03329558f371fca9"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Update create_file.yml"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2023-03-30T10:32:52-03:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "0395b849249aaba6db9d59c310c444299e339c8b"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/jrk311/TestDVC4/commit/3849e495d4003a310af4d46c03329558f371fca9"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/jrk311/TestDVC4/compare/40b637b463f6...3849e495d400"
+              },
+              {
+                "k": "created",
+                "v": false
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "81492252+jrk311@users.noreply.github.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "Jorge Recabal"
+                          },
+                          {
+                            "k": "username",
+                            "v": "jrk311"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "noreply@github.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "GitHub"
+                          },
+                          {
+                            "k": "username",
+                            "v": "web-flow"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "3849e495d4003a310af4d46c03329558f371fca9"
+                    },
+                    {
+                      "k": "message",
+                      "v": "Update create_file.yml"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2023-03-30T10:32:52-03:00"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "0395b849249aaba6db9d59c310c444299e339c8b"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/jrk311/TestDVC4/commit/3849e495d4003a310af4d46c03329558f371fca9"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "81492252+jrk311@users.noreply.github.com"
+                    },
+                    {
+                      "k": "name",
+                      "v": "jrk311"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/main"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/jrk311/TestDVC4.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1680182653.0
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": null
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "jrk311/TestDVC4"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/jrk311/TestDVC4.git"
+                    },
+                    {
+                      "k": "has_discussions",
+                      "v": false
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": true
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/jrk311/TestDVC4"
+                    },
+                    {
+                      "k": "id",
+                      "v": 621342258.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": null
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": null
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "TestDVC4"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOJQjuMg"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/81492252?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": "81492252+jrk311@users.noreply.github.com"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/jrk311/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/jrk311/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/jrk311/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/jrk311/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/jrk311"
+                          },
+                          {
+                            "k": "id",
+                            "v": 81492252.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "jrk311"
+                          },
+                          {
+                            "k": "name",
+                            "v": "jrk311"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDQ6VXNlcjgxNDkyMjUy"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/jrk311/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/jrk311/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/jrk311/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/jrk311/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/jrk311/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "User"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/jrk311"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1680183172.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:jrk311/TestDVC4.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/jrk311/TestDVC4"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/jrk311/TestDVC4/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2023-03-30T13:24:13Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/jrk311/TestDVC4"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": false
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/81492252?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/jrk311/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/jrk311/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/jrk311/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/jrk311/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/jrk311"
+                    },
+                    {
+                      "k": "id",
+                      "v": 81492252.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "jrk311"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDQ6VXNlcjgxNDkyMjUy"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/jrk311/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/jrk311/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/jrk311/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/jrk311/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/jrk311/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/jrk311"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "main"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        },
+        {
+          "k": "workflow_ref",
+          "v": "jrk311/TestDVC4/.github/workflows/create_file.yml@refs/heads/main"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "3849e495d4003a310af4d46c03329558f371fca9"
+        }
+      ]
+    },
+    "partialrerun": false,
+    "needs": {
+      "t": 2
+    },
+    "vars": null,
+    "inputs": {
+      "t": 2
+    },
+    "matrix": null,
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    }
+  }
+}
+[2023-03-30 13:33:02Z INFO JobRunner] Job ID 9164a0f0-3bcd-5ee3-eaa2-1108f277a7dd
+[2023-03-30 13:33:02Z INFO JobRunner] Creating job server with URL: https://pipelines.actions.githubusercontent.com/ckkLo4xrLMJkAEvmsmVNqJTy3Nk4gejc1dRSQZl1rlyhPW1Xrp/
+[2023-03-30 13:33:02Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin\Runner.Worker.dll
+[2023-03-30 13:33:02Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:02Z INFO ConfigurationStore] binPath: C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin
+[2023-03-30 13:33:02Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:02Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:02Z INFO ConfigurationStore] RootFolder: C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner
+[2023-03-30 13:33:02Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:02Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:02Z INFO HostContext] Well known config file 'Runner': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\.runner'
+[2023-03-30 13:33:02Z INFO ConfigurationStore] ConfigFilePath: C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\.runner
+[2023-03-30 13:33:02Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:02Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:02Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\.credentials'
+[2023-03-30 13:33:02Z INFO ConfigurationStore] CredFilePath: C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\.credentials
+[2023-03-30 13:33:02Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:02Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:02Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\.credentials_migrated'
+[2023-03-30 13:33:02Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\.credentials_migrated
+[2023-03-30 13:33:02Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:02Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:02Z INFO HostContext] Well known config file 'Service': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\.service'
+[2023-03-30 13:33:02Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\.service
+[2023-03-30 13:33:02Z INFO ConfigurationStore] Read setting file: 295 chars
+[2023-03-30 13:33:02Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-30 13:33:02Z INFO Worker] Listening for cancel message from the channel.
+[2023-03-30 13:33:02Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2023-03-30 13:33:03Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-30 13:33:03Z INFO JobServer] Creating websocket client ...wss://pipelines.actions.githubusercontent.com/ckkLo4xrLMJkAEvmsmVNqJTy3Nk4gejc1dRSQZl1rlyhPW1Xrp/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/7f4e3bc2-7afa-4e27-a79c-6949ebc3841e/timelines/7f4e3bc2-7afa-4e27-a79c-6949ebc3841e/records/9164a0f0-3bcd-5ee3-eaa2-1108f277a7dd/feedstream?api-version=6.0-preview
+[2023-03-30 13:33:03Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.
+[2023-03-30 13:33:03Z INFO JobServerQueue] Start process web console line queue.
+[2023-03-30 13:33:03Z INFO JobServerQueue] Start process file upload queue.
+[2023-03-30 13:33:03Z INFO JobServerQueue] Start results file upload queue.
+[2023-03-30 13:33:03Z INFO JobServer] Exception caught during websocket client connect, fallback of HTTP would be used now instead of websocket.
+[2023-03-30 13:33:03Z INFO JobServerQueue] Starting results-based upload queue...
+[2023-03-30 13:33:03Z INFO JobServerQueue] Start process timeline update queue.
+[2023-03-30 13:33:03Z ERR  JobServer] System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the remote server
+ ---> System.Net.Http.HttpRequestException: Host desconocido. (proxy.cec.uchile.cl:8000)
+ ---> System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.EstablishProxyTunnelAsync(Boolean async, HttpRequestHeaders headers, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+   at System.Net.WebSockets.ClientWebSocket.ConnectAsyncCore(Uri uri, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.JobServer.ConnectWebSocketClient(String feedStreamUrl, TimeSpan delay)
+[2023-03-30 13:33:03Z ERR  JobServer] #####################################################
+[2023-03-30 13:33:03Z ERR  JobServer] System.Net.Http.HttpRequestException: Host desconocido. (proxy.cec.uchile.cl:8000)
+ ---> System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.EstablishProxyTunnelAsync(Boolean async, HttpRequestHeaders headers, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+[2023-03-30 13:33:03Z ERR  JobServer] #####################################################
+[2023-03-30 13:33:03Z ERR  JobServer] System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-30 13:33:03Z INFO ExecutionContext] Initialize GitHub context
+[2023-03-30 13:33:03Z INFO ExecutionContext] Initialize Env context
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Diag': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_diag'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Diag': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_diag'
+[2023-03-30 13:33:03Z INFO JobRunner] Starting the job execution context.
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Work': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work'
+[2023-03-30 13:33:03Z INFO JobRunner] Validating directory permissions for: 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Work': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Tools': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work\_tool'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Work': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Temp': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work\_temp'
+[2023-03-30 13:33:03Z INFO JobRunner] Getting job extension.
+[2023-03-30 13:33:03Z INFO JobRunner] Initialize job. Getting all job steps.
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Diag': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_diag'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Diag': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_diag'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:03Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\.credentials'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:03Z INFO HostContext] Well known config file 'SetupInfo': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\.setup_info'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Work': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work'
+[2023-03-30 13:33:03Z INFO PipelineDirectoryManager] Loading tracking config if exists: C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work\_PipelineMapping\jrk311/TestDVC4\PipelineFolder.json
+[2023-03-30 13:33:03Z INFO PipelineDirectoryManager] Updating job run properties.
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Work': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Work': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:03Z INFO HostContext] Well known directory 'Work': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work'
+[2023-03-30 13:33:03Z INFO JobServer] Caught exception during append web console line to websocket, let's fallback to sending via non-websocket call (total calls: 1, failed calls: 1, websocket state: Closed).
+[2023-03-30 13:33:03Z ERR  JobServer] System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.WebSockets.ClientWebSocket'.
+   at System.Net.WebSockets.ClientWebSocket.get_ConnectedWebSocket()
+   at GitHub.Runner.Common.JobServer.AppendTimelineRecordFeedAsync(Guid scopeIdentifier, String hubName, Guid planId, Guid timelineId, Guid timelineRecordId, Guid stepId, IList`1 lines, Nullable`1 startLine, CancellationToken cancellationToken)
+[2023-03-30 13:33:03Z INFO JobServer] Websocket is not open, let's attempt to connect back again with random backoff 00:00:00.4810000 ms (total calls: 1, failed calls: 1).
+[2023-03-30 13:33:03Z INFO JobServer] Creating websocket client ...wss://pipelines.actions.githubusercontent.com/ckkLo4xrLMJkAEvmsmVNqJTy3Nk4gejc1dRSQZl1rlyhPW1Xrp/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/7f4e3bc2-7afa-4e27-a79c-6949ebc3841e/timelines/7f4e3bc2-7afa-4e27-a79c-6949ebc3841e/records/9164a0f0-3bcd-5ee3-eaa2-1108f277a7dd/feedstream?api-version=6.0-preview
+[2023-03-30 13:33:03Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.4810000.
+[2023-03-30 13:33:04Z INFO JobExtension] Downloading actions
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Work': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Actions': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work\_actions'
+[2023-03-30 13:33:04Z INFO JobExtension] Adding .
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Diag': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_diag'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Diag': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_diag'
+[2023-03-30 13:33:04Z INFO JobExtension] Total accessible running process: 281.
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Work': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work'
+[2023-03-30 13:33:04Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "c22f597b-5706-452e-bbc8-699d67c01569",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2023-03-30T13:33:03.8689257Z",
+  "finishTime": "2023-03-30T13:33:04.1119466Z"
+}.
+[2023-03-30 13:33:04Z INFO JobRunner] Total job steps: 1.
+[2023-03-30 13:33:04Z INFO JobRunner] Run all job steps.
+[2023-03-30 13:33:04Z INFO StepsRunner] Processing step: DisplayName='Create file'
+[2023-03-30 13:33:04Z INFO StepsRunner] Evaluating: success()
+[2023-03-30 13:33:04Z INFO StepsRunner] Result: true
+[2023-03-30 13:33:04Z INFO StepsRunner] Starting the step.
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Work': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work'
+[2023-03-30 13:33:04Z INFO StepsRunner] Which: 'chcp'
+[2023-03-30 13:33:04Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c22f597b-5706-452e-bbc8-699d67c01569', success rate: 1/1.
+[2023-03-30 13:33:04Z INFO StepsRunner] Location: 'C:\WINDOWS\system32\chcp.COM'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   File name: 'C:\WINDOWS\system32\chcp.COM'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper] Process started with process id 19628, waiting for process exit.
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper] Finished process 19628 with exit code 0, and elapsed time 00:00:00.0523128.
+[2023-03-30 13:33:04Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Work': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Temp': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work\_temp'
+[2023-03-30 13:33:04Z INFO ExecutionContext] Write event payload to C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work\_temp\_github_workflow\event.json
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Work': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Temp': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work\_temp'
+[2023-03-30 13:33:04Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathFileCommand, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvFileCommand, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.CreateStepSummaryCommand, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateFileCommand, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputFileCommand, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.InternalPluginSetRepoPathCommandExtension, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvCommandExtension, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputCommandExtension, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateCommandExtension, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathCommandExtension, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMaskCommandExtension, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMatcherCommandExtension, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.RemoveMatcherCommandExtension, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.WarningCommandExtension, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.ErrorCommandExtension, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.NoticeCommandExtension, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.DebugCommandExtension, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.GroupCommandExtension, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EndGroupCommandExtension, Runner.Worker
+[2023-03-30 13:33:04Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EchoCommandExtension, Runner.Worker
+[2023-03-30 13:33:04Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2023-03-30 13:33:04Z INFO ActionCommandManager] Register action command extension for command set-env
+[2023-03-30 13:33:04Z INFO ActionCommandManager] Register action command extension for command set-output
+[2023-03-30 13:33:04Z INFO ActionCommandManager] Register action command extension for command save-state
+[2023-03-30 13:33:04Z INFO ActionCommandManager] Register action command extension for command add-path
+[2023-03-30 13:33:04Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2023-03-30 13:33:04Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2023-03-30 13:33:04Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2023-03-30 13:33:04Z INFO ActionCommandManager] Register action command extension for command warning
+[2023-03-30 13:33:04Z INFO ActionCommandManager] Register action command extension for command error
+[2023-03-30 13:33:04Z INFO ActionCommandManager] Register action command extension for command notice
+[2023-03-30 13:33:04Z INFO ActionCommandManager] Register action command extension for command debug
+[2023-03-30 13:33:04Z INFO ActionCommandManager] Register action command extension for command group
+[2023-03-30 13:33:04Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2023-03-30 13:33:04Z INFO ActionCommandManager] Register action command extension for command echo
+[2023-03-30 13:33:04Z INFO ScriptHandler] Which: 'pwsh'
+[2023-03-30 13:33:04Z INFO ScriptHandler] pwsh: command not found. Make sure 'pwsh' is installed and its location included in the 'Path' environment variable.
+[2023-03-30 13:33:04Z INFO ScriptHandler] Defaulting to powershell
+[2023-03-30 13:33:04Z INFO ScriptHandler] Which: 'powershell'
+[2023-03-30 13:33:04Z INFO ScriptHandler] Location: 'C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Work': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work'
+[2023-03-30 13:33:04Z INFO HostContext] Well known directory 'Temp': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work\_temp'
+[2023-03-30 13:33:04Z INFO ScriptHandler] Which: 'pwsh'
+[2023-03-30 13:33:04Z INFO ScriptHandler] pwsh: command not found. Make sure 'pwsh' is installed and its location included in the 'Path' environment variable.
+[2023-03-30 13:33:04Z INFO ScriptHandler] Defaulting to powershell
+[2023-03-30 13:33:04Z INFO ScriptHandler] Which: 'powershell'
+[2023-03-30 13:33:04Z INFO ScriptHandler] Location: 'C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   File name: 'C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   Arguments: '-command ". 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work\_temp\c99c40b1-6102-4183-a29e-b9cd2c8d95ca.ps1'"'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work\TestDVC4\TestDVC4'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-03-30 13:33:04Z INFO JobServer] Exception caught during websocket client connect, fallback of HTTP would be used now instead of websocket.
+[2023-03-30 13:33:04Z ERR  JobServer] System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the remote server
+ ---> System.Net.Http.HttpRequestException: Host desconocido. (proxy.cec.uchile.cl:8000)
+ ---> System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.EstablishProxyTunnelAsync(Boolean async, HttpRequestHeaders headers, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+   at System.Net.WebSockets.ClientWebSocket.ConnectAsyncCore(Uri uri, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.JobServer.ConnectWebSocketClient(String feedStreamUrl, TimeSpan delay)
+[2023-03-30 13:33:04Z ERR  JobServer] #####################################################
+[2023-03-30 13:33:04Z ERR  JobServer] System.Net.Http.HttpRequestException: Host desconocido. (proxy.cec.uchile.cl:8000)
+ ---> System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.EstablishProxyTunnelAsync(Boolean async, HttpRequestHeaders headers, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+[2023-03-30 13:33:04Z ERR  JobServer] #####################################################
+[2023-03-30 13:33:04Z ERR  JobServer] System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-30 13:33:04Z INFO ProcessInvokerWrapper] Process started with process id 23892, waiting for process exit.
+[2023-03-30 13:33:04Z INFO JobServer] Caught exception during append web console line to websocket, let's fallback to sending via non-websocket call (total calls: 2, failed calls: 2, websocket state: Closed).
+[2023-03-30 13:33:04Z ERR  JobServer] System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.WebSockets.ClientWebSocket'.
+   at System.Net.WebSockets.ClientWebSocket.get_ConnectedWebSocket()
+   at GitHub.Runner.Common.JobServer.AppendTimelineRecordFeedAsync(Guid scopeIdentifier, String hubName, Guid planId, Guid timelineId, Guid timelineRecordId, Guid stepId, IList`1 lines, Nullable`1 startLine, CancellationToken cancellationToken)
+[2023-03-30 13:33:04Z INFO JobServer] Websocket is not open, let's attempt to connect back again with random backoff 00:00:00.1660000 ms (total calls: 2, failed calls: 2).
+[2023-03-30 13:33:04Z INFO JobServer] Creating websocket client ...wss://pipelines.actions.githubusercontent.com/ckkLo4xrLMJkAEvmsmVNqJTy3Nk4gejc1dRSQZl1rlyhPW1Xrp/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/7f4e3bc2-7afa-4e27-a79c-6949ebc3841e/timelines/7f4e3bc2-7afa-4e27-a79c-6949ebc3841e/records/9164a0f0-3bcd-5ee3-eaa2-1108f277a7dd/feedstream?api-version=6.0-preview
+[2023-03-30 13:33:04Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.1660000.
+[2023-03-30 13:33:04Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2023-03-30 13:33:04Z INFO JobServer] Exception caught during websocket client connect, fallback of HTTP would be used now instead of websocket.
+[2023-03-30 13:33:04Z ERR  JobServer] System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the remote server
+ ---> System.Net.Http.HttpRequestException: Host desconocido. (proxy.cec.uchile.cl:8000)
+ ---> System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.EstablishProxyTunnelAsync(Boolean async, HttpRequestHeaders headers, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+   at System.Net.WebSockets.ClientWebSocket.ConnectAsyncCore(Uri uri, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.JobServer.ConnectWebSocketClient(String feedStreamUrl, TimeSpan delay)
+[2023-03-30 13:33:04Z ERR  JobServer] #####################################################
+[2023-03-30 13:33:04Z ERR  JobServer] System.Net.Http.HttpRequestException: Host desconocido. (proxy.cec.uchile.cl:8000)
+ ---> System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.EstablishProxyTunnelAsync(Boolean async, HttpRequestHeaders headers, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+[2023-03-30 13:33:04Z ERR  JobServer] #####################################################
+[2023-03-30 13:33:04Z ERR  JobServer] System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-30 13:33:04Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'c22f597b-5706-452e-bbc8-699d67c01569', success rate: 1/1.
+[2023-03-30 13:33:04Z INFO JobServer] Caught exception during append web console line to websocket, let's fallback to sending via non-websocket call (total calls: 3, failed calls: 3, websocket state: Closed).
+[2023-03-30 13:33:04Z ERR  JobServer] System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.WebSockets.ClientWebSocket'.
+   at System.Net.WebSockets.ClientWebSocket.get_ConnectedWebSocket()
+   at GitHub.Runner.Common.JobServer.AppendTimelineRecordFeedAsync(Guid scopeIdentifier, String hubName, Guid planId, Guid timelineId, Guid timelineRecordId, Guid stepId, IList`1 lines, Nullable`1 startLine, CancellationToken cancellationToken)
+[2023-03-30 13:33:04Z INFO JobServer] Websocket is not open, let's attempt to connect back again with random backoff 00:00:00.4650000 ms (total calls: 3, failed calls: 3).
+[2023-03-30 13:33:04Z INFO JobServer] Creating websocket client ...wss://pipelines.actions.githubusercontent.com/ckkLo4xrLMJkAEvmsmVNqJTy3Nk4gejc1dRSQZl1rlyhPW1Xrp/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/7f4e3bc2-7afa-4e27-a79c-6949ebc3841e/timelines/7f4e3bc2-7afa-4e27-a79c-6949ebc3841e/records/9164a0f0-3bcd-5ee3-eaa2-1108f277a7dd/feedstream?api-version=6.0-preview
+[2023-03-30 13:33:04Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.4650000.
+[2023-03-30 13:33:04Z INFO JobServerQueue] Try to append 1 batches web console lines for record '11ab1553-ddaf-5bbe-3bed-6cee8845c584', success rate: 1/1.
+[2023-03-30 13:33:05Z INFO JobServer] Exception caught during websocket client connect, fallback of HTTP would be used now instead of websocket.
+[2023-03-30 13:33:05Z ERR  JobServer] System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the remote server
+ ---> System.Net.Http.HttpRequestException: Host desconocido. (proxy.cec.uchile.cl:8000)
+ ---> System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.EstablishProxyTunnelAsync(Boolean async, HttpRequestHeaders headers, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+   at System.Net.WebSockets.ClientWebSocket.ConnectAsyncCore(Uri uri, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.JobServer.ConnectWebSocketClient(String feedStreamUrl, TimeSpan delay)
+[2023-03-30 13:33:05Z ERR  JobServer] #####################################################
+[2023-03-30 13:33:05Z ERR  JobServer] System.Net.Http.HttpRequestException: Host desconocido. (proxy.cec.uchile.cl:8000)
+ ---> System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.EstablishProxyTunnelAsync(Boolean async, HttpRequestHeaders headers, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+[2023-03-30 13:33:05Z ERR  JobServer] #####################################################
+[2023-03-30 13:33:05Z ERR  JobServer] System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-30 13:33:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-30 13:33:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-30 13:33:05Z INFO ProcessInvokerWrapper] Finished process 23892 with exit code 0, and elapsed time 00:00:00.7664660.
+[2023-03-30 13:33:05Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work\_temp\_runner_file_commands\step_summary_753b3562-d789-447e-af86-b48639c31e70) is empty; skipping attachment upload
+[2023-03-30 13:33:05Z INFO StepsRunner] Step result: 
+[2023-03-30 13:33:05Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "powershell",
+  "type": "run",
+  "stage": "Main",
+  "stepId": "11ab1553-ddaf-5bbe-3bed-6cee8845c584",
+  "stepContextName": "__run",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 2,
+  "startTime": "2023-03-30T13:33:04.1628021Z",
+  "finishTime": "2023-03-30T13:33:05.2700666Z"
+}.
+[2023-03-30 13:33:05Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2023-03-30 13:33:05Z INFO StepsRunner] Current state: job state = ''
+[2023-03-30 13:33:05Z INFO JobRunner] Finalize job.
+[2023-03-30 13:33:05Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:05Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:05Z INFO HostContext] Well known directory 'Diag': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_diag'
+[2023-03-30 13:33:05Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:05Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:05Z INFO HostContext] Well known directory 'Diag': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_diag'
+[2023-03-30 13:33:05Z INFO JobExtension] Initialize Env context
+[2023-03-30 13:33:05Z INFO JobExtension] Initialize steps context
+[2023-03-30 13:33:05Z INFO JobExtension] Total accessible running process: 281.
+[2023-03-30 13:33:05Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "complete_job",
+  "type": "runner",
+  "stage": "Post",
+  "stepId": "0a76cc72-2c83-41de-8e3c-6325e8d20503",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2023-03-30T13:33:05.3195838Z",
+  "finishTime": "2023-03-30T13:33:05.3488969Z"
+}.
+[2023-03-30 13:33:05Z INFO JobRunner] Job result after all job steps finish: Succeeded
+[2023-03-30 13:33:05Z INFO JobRunner] Completing the job execution context.
+[2023-03-30 13:33:05Z INFO JobRunner] Shutting down the job server queue.
+[2023-03-30 13:33:05Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2023-03-30 13:33:05Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2023-03-30 13:33:06Z INFO JobServerQueue] All queue process task stopped.
+[2023-03-30 13:33:06Z INFO JobServer] Caught exception during append web console line to websocket, let's fallback to sending via non-websocket call (total calls: 4, failed calls: 4, websocket state: Closed).
+[2023-03-30 13:33:06Z ERR  JobServer] System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.WebSockets.ClientWebSocket'.
+   at System.Net.WebSockets.ClientWebSocket.get_ConnectedWebSocket()
+   at GitHub.Runner.Common.JobServer.AppendTimelineRecordFeedAsync(Guid scopeIdentifier, String hubName, Guid planId, Guid timelineId, Guid timelineRecordId, Guid stepId, IList`1 lines, Nullable`1 startLine, CancellationToken cancellationToken)
+[2023-03-30 13:33:06Z INFO JobServer] Websocket is not open, let's attempt to connect back again with random backoff 00:00:00.2670000 ms (total calls: 4, failed calls: 4).
+[2023-03-30 13:33:06Z INFO JobServer] Creating websocket client ...wss://pipelines.actions.githubusercontent.com/ckkLo4xrLMJkAEvmsmVNqJTy3Nk4gejc1dRSQZl1rlyhPW1Xrp/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/7f4e3bc2-7afa-4e27-a79c-6949ebc3841e/timelines/7f4e3bc2-7afa-4e27-a79c-6949ebc3841e/records/9164a0f0-3bcd-5ee3-eaa2-1108f277a7dd/feedstream?api-version=6.0-preview
+[2023-03-30 13:33:06Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.2670000.
+[2023-03-30 13:33:06Z INFO JobServerQueue] Try to append 1 batches web console lines for record '11ab1553-ddaf-5bbe-3bed-6cee8845c584', success rate: 1/1.
+[2023-03-30 13:33:06Z INFO JobServer] Exception caught during websocket client connect, fallback of HTTP would be used now instead of websocket.
+[2023-03-30 13:33:06Z ERR  JobServer] System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the remote server
+ ---> System.Net.Http.HttpRequestException: Host desconocido. (proxy.cec.uchile.cl:8000)
+ ---> System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.EstablishProxyTunnelAsync(Boolean async, HttpRequestHeaders headers, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+   at System.Net.WebSockets.ClientWebSocket.ConnectAsyncCore(Uri uri, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.JobServer.ConnectWebSocketClient(String feedStreamUrl, TimeSpan delay)
+[2023-03-30 13:33:06Z ERR  JobServer] #####################################################
+[2023-03-30 13:33:06Z ERR  JobServer] System.Net.Http.HttpRequestException: Host desconocido. (proxy.cec.uchile.cl:8000)
+ ---> System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.EstablishProxyTunnelAsync(Boolean async, HttpRequestHeaders headers, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+[2023-03-30 13:33:06Z ERR  JobServer] #####################################################
+[2023-03-30 13:33:06Z ERR  JobServer] System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-30 13:33:06Z INFO JobServer] Caught exception during append web console line to websocket, let's fallback to sending via non-websocket call (total calls: 5, failed calls: 5, websocket state: Closed).
+[2023-03-30 13:33:06Z ERR  JobServer] System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.WebSockets.ClientWebSocket'.
+   at System.Net.WebSockets.ClientWebSocket.get_ConnectedWebSocket()
+   at GitHub.Runner.Common.JobServer.AppendTimelineRecordFeedAsync(Guid scopeIdentifier, String hubName, Guid planId, Guid timelineId, Guid timelineRecordId, Guid stepId, IList`1 lines, Nullable`1 startLine, CancellationToken cancellationToken)
+[2023-03-30 13:33:06Z INFO JobServer] Websocket is not open, let's attempt to connect back again with random backoff 00:00:00.4820000 ms (total calls: 5, failed calls: 5).
+[2023-03-30 13:33:06Z INFO JobServer] Creating websocket client ...wss://pipelines.actions.githubusercontent.com/ckkLo4xrLMJkAEvmsmVNqJTy3Nk4gejc1dRSQZl1rlyhPW1Xrp/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/7f4e3bc2-7afa-4e27-a79c-6949ebc3841e/timelines/7f4e3bc2-7afa-4e27-a79c-6949ebc3841e/records/9164a0f0-3bcd-5ee3-eaa2-1108f277a7dd/feedstream?api-version=6.0-preview
+[2023-03-30 13:33:06Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.4820000.
+[2023-03-30 13:33:07Z INFO JobServerQueue] Try to append 1 batches web console lines for record '0a76cc72-2c83-41de-8e3c-6325e8d20503', success rate: 1/1.
+[2023-03-30 13:33:07Z INFO JobServerQueue] Web console line queue drained.
+[2023-03-30 13:33:07Z INFO JobServerQueue] Uploading 3 files in one shot.
+[2023-03-30 13:33:07Z INFO JobServer] Exception caught during websocket client connect, fallback of HTTP would be used now instead of websocket.
+[2023-03-30 13:33:07Z ERR  JobServer] System.Net.WebSockets.WebSocketException (0x80004005): Unable to connect to the remote server
+ ---> System.Net.Http.HttpRequestException: Host desconocido. (proxy.cec.uchile.cl:8000)
+ ---> System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.EstablishProxyTunnelAsync(Boolean async, HttpRequestHeaders headers, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+   at System.Net.WebSockets.ClientWebSocket.ConnectAsyncCore(Uri uri, CancellationToken cancellationToken)
+   at GitHub.Runner.Common.JobServer.ConnectWebSocketClient(String feedStreamUrl, TimeSpan delay)
+[2023-03-30 13:33:07Z ERR  JobServer] #####################################################
+[2023-03-30 13:33:07Z ERR  JobServer] System.Net.Http.HttpRequestException: Host desconocido. (proxy.cec.uchile.cl:8000)
+ ---> System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.EstablishProxyTunnelAsync(Boolean async, HttpRequestHeaders headers, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.WebSockets.WebSocketHandle.ConnectAsync(Uri uri, CancellationToken cancellationToken, ClientWebSocketOptions options)
+[2023-03-30 13:33:07Z ERR  JobServer] #####################################################
+[2023-03-30 13:33:07Z ERR  JobServer] System.Net.Sockets.SocketException (11001): Host desconocido.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+[2023-03-30 13:33:08Z INFO JobServerQueue] Try to upload 3 log files or attachments, success rate: 3/3.
+[2023-03-30 13:33:08Z INFO JobServerQueue] File upload queue drained.
+[2023-03-30 13:33:08Z INFO JobServerQueue] Starting results-based upload queue...
+[2023-03-30 13:33:08Z INFO JobServerQueue] Results upload queue drained.
+[2023-03-30 13:33:08Z INFO JobServerQueue] Timeline update queue drained.
+[2023-03-30 13:33:08Z INFO JobServerQueue] Disposing job server ...
+[2023-03-30 13:33:08Z INFO JobServer] Failed to close websocket gracefully ObjectDisposedException
+[2023-03-30 13:33:08Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2023-03-30 13:33:08Z INFO TempDirectoryManager] Cleaning runner temp folder: C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_work\_temp
+[2023-03-30 13:33:08Z INFO HostContext] Well known directory 'Bin': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\bin'
+[2023-03-30 13:33:08Z INFO HostContext] Well known directory 'Root': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner'
+[2023-03-30 13:33:08Z INFO HostContext] Well known directory 'Diag': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_diag'
+[2023-03-30 13:33:08Z INFO HostContext] Well known config file 'Telemetry': 'C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC4\actions-runner\_diag\.telemetry'
+[2023-03-30 13:33:08Z INFO JobRunner] Raising job completed event
+[2023-03-30 13:33:08Z INFO Worker] Job completed.

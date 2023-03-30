@@ -1,0 +1,9 @@
+﻿{
+  "agentId": 2,
+  "agentName": "LAPTOP-7U7QQLT5",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelines.actions.githubusercontent.com/ckkLo4xrLMJkAEvmsmVNqJTy3Nk4gejc1dRSQZl1rlyhPW1Xrp",
+  "gitHubUrl": "https://github.com/jrk311/TestDVC4",
+  "workFolder": "_work"
+}
